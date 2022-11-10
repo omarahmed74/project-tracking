@@ -1,0 +1,127 @@
+body {
+    overflow: hidden;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: hsl(230, 29%, 20%);
+    transition: all .5s;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: hsl(231, 7%, 65%);
+}
+
+.navbar-brand img {
+    margin-left: 100px;
+}
+
+.home .aboutHeader {
+    padding: 80px 40px;
+}
+
+.home .aboutHeader h5 span {
+    color: hsl(233, 8%, 62%);
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.home .aboutHeader h1 {
+    color: hsl(230, 29%, 20%);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.home .aboutHeader p {
+    color:  hsl(233, 8%, 62%);
+    padding: 15px 0px;
+}
+
+.home h5 a {
+    color: white;
+    background-color: hsl(230, 29%, 20%);
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.btn3 {
+    border: 1px solid hsl(0, 100%, 68%);
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    transition: all .5s;
+    padding: 7px 25px;
+}
+
+.btn3:hover {
+    background-color: hsla(0, 100%, 68%, 0.769);
+    color: white;
+}
+
+.btn1-2 {
+    color: hsl(233, 8%, 62%);
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.home .Img-edit {
+    padding: 80px 0px;
+}
+
+.home img {
+    width: 150%;
+}
+
+
+
+@media (max-width: 750px) {
+    body {
+        overflow-y: auto;
+
+    }
+
+    .navbar-brand img {
+        margin-left: 0px;
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 0px 0px;
+    }
+
+    .home .aboutHeader {
+        padding: 0px 20px;
+    }
+    
+    .home .aboutHeader h5 span {
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    
+    .home .aboutHeader h1 {
+        color: hsl(230, 29%, 20%);
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 29px;
+    }
+    
+    .home .aboutHeader p {
+        color:  hsl(233, 8%, 62%);
+        padding: 10px 0px;
+    }
+    
+
+
+}    
